@@ -26,7 +26,7 @@ This project is an automated attendance system using **Face Recognition**. It de
 ## ⚙️ Installation
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/10162-glitch/cv-attendance-system.git
 cd cv-attendance-system
 pip install -r requirements.txt
 ```
