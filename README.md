@@ -15,4 +15,4 @@ Manual attendance in large lectures is inefficient, time-consuming, and suscepti
 ## Setup and Installation
 1. Clone the repository: 
    ```bash
-   git clone <your-github-repo-url>
+   git clone https://github.com/10162-glitch/cv-attendance-system.git
