@@ -1,18 +1,64 @@
-# Automated Vision-Based Attendance System
+# 🎯 Computer Vision Attendance System
 
-## Project Overview
-A Computer Vision application designed to automate the classroom attendance process. It utilizes facial recognition to identify students from a live camera feed and logs their presence into a CSV file with precise timestamps. This serves as the Bring Your Own Project (BYOP) submission for the Computer Vision course.
+## 📌 Overview
+This project is an automated attendance system using **Face Recognition**. It detects and recognizes faces in real-time using a webcam and marks attendance with timestamps.
 
-## Problem Solved
-Manual attendance in large lectures is inefficient, time-consuming, and susceptible to proxy attendance. This project provides a frictionless, automated alternative that recovers valuable teaching time.
+## 🚀 Features
+- Real-time face detection & recognition
+- Automated attendance logging
+- No manual intervention
+- Reduces proxy attendance
+- Easy to use and setup
 
-## Technologies Used
-* **Python 3.x**
-* **OpenCV:** For real-time image processing and webcam feed handling.
-* **face_recognition (Dlib):** For extracting 128D facial encodings and matching them against known images.
-* **Pandas / Standard CSV:** For data logging and storage.
+## 🛠 Tech Stack
+- Python
+- OpenCV
+- face_recognition
+- NumPy
 
-## Setup and Installation
-1. Clone the repository: 
-   ```bash
-   git clone https://github.com/10162-glitch/cv-attendance-system.git
+## 📂 Project Structure
+```
+├── main.py
+├── requirements.txt
+├── README.md
+```
+
+## ⚙️ Installation
+
+```bash
+git clone <your-repo-link>
+cd cv-attendance-system
+pip install -r requirements.txt
+```
+
+## ▶️ Usage
+
+```bash
+python main.py
+```
+
+- Make sure webcam is enabled
+- Add known faces before running system
+
+## 🧠 How It Works
+1. Capture video from webcam
+2. Detect faces using OpenCV
+3. Encode faces using face_recognition
+4. Match with known dataset
+5. Mark attendance with timestamp
+
+## ⚠️ Challenges
+- Lighting conditions
+- Face angles
+- Performance optimization
+
+## 🔮 Future Improvements
+- GUI interface
+- Cloud database
+- Mobile integration
+
+## 🤝 Contribution
+Feel free to fork and improve this project.
+
+## 📜 License
+For educational use only.
